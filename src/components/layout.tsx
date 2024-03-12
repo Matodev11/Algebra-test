@@ -1,22 +1,17 @@
 import { ReactNode } from "react";
 
 type Props = {
-    children: ReactNode;
-}
+  children: ReactNode;
+};
 
-
-const Layout = ({children}:Props) => {
-return (
-<>
-
-<div className="layout"></div>
-{children}
-
-
-</>
-
-)
-
-}
+const Layout = ({ children }: Props) => {
+  return (
+    <>
+      <div className="layout"></div>
+      <div className="layout__changes">Neke promjene</div>
+      {children}
+    </>
+  );
+};
 
 export default Layout;
