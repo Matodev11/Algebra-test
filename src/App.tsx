@@ -1,16 +1,15 @@
-import Layout from "./components/layout"
-import Countries from "./components/Countries"
+import Layout from "./components/layout";
+import Countries from "./components/Countries";
 
 const App = () => {
- 
-
   return (
     <>
-     <Layout>
-      <Countries/>
-     </Layout>
+      <Layout>
+        Neki tekst
+        <Countries />
+      </Layout>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
