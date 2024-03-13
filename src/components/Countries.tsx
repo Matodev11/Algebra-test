@@ -42,7 +42,7 @@ const Countries = () => {
                 <p>Name: {country.name.common}</p>
                 <p>Capital: {country.capital}</p>
                 <p>Population: {country.population}</p>
-                <p>Region: {country.name.Region}</p>
+                <p>Region: {country.region}</p>
               </div>
             </div>
           ))}
